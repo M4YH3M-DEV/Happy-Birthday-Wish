@@ -8,12 +8,12 @@ interface UserStructure {
 
 export const userList: UserStructure[] = [
   {
-    name: "Anushka",
-    password: "ckhitler",
-    picLink: "/img/anushka.png",
+    name: "Rehat",
+    password: "bdaywish",
+    picLink: "/img/Girl.jpeg",
     inviteMessage:
-      "FInally aab tumera message, I have been working on this website from 30 hrs, bus ek message likhne ke lie bcccc. Sabka kr die aab tumera bacah hai bus, dekho I understand jo bhi fuckup hua humlogka, tum mere se baat krna band kr di and all..... I guess aab sab sorted hai and aab nhi hoga fuckup paaka promise :) 12th april ko bday aarha hai and tumko bhi ana hai hmm. Pickup and drop kr denge time pe, subha subha he ana hai, waise ek request hai, treditional phen ke ana, tumse aacha lgta hai ;) chalo sone jarai hai aab thak gai kaam krte krte.... bue bue",
-    songLink: "/song/Dupatta.mp3",
+      "Happy Birthday to the girl that stole my heart just before the 1st year ended. Hope your birthday will be as wonderful  and incredible as you are. Wishing you a day filled with joy, laughter and everything that makes you feel happy. Enjoy your day to the fullest and remember there is someone who misses and thinks about you more than you know.",
+    songLink: "/song/Girl.mp3",
   },
   {
     name: "Jigglypuff",
