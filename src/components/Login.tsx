@@ -97,7 +97,7 @@ export default function Login() {
               animate={{ y: 0, opacity: 1, rotate: 0 }}
               transition={{ duration: 0.7, delay: 0.5, type: "spring" }}
             >
-              🎉 Welcome To 🎉
+              🎉 Happy Birthday 🎉
             </motion.h1>
             <br />
             <motion.h1
@@ -106,7 +106,7 @@ export default function Login() {
               animate={{ y: 0, opacity: 1, rotate: 0 }}
               transition={{ duration: 0.7, delay: 0.5, type: "spring" }}
             >
-              🎉 Birthday party 🎉
+              🎉 Rehat 🎉
             </motion.h1>
 
             {/* Spacer */}
@@ -122,7 +122,7 @@ export default function Login() {
                 id="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="Naam bta aapna"
+                placeholder="Your Name"
                 className="w-full rounded-full px-4 py-2 outline-none border-2 border-white text-2xl"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -135,7 +135,7 @@ export default function Login() {
                 value={password}
                 id="password"
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="Prove kr tu he hai"
+                placeholder="Password :)"
                 className="w-full rounded-full px-4 py-2 outline-none border-2 border-white text-2xl"
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
